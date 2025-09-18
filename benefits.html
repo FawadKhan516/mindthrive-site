@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      Find Your Mental Health Match. Feel Understood. Start Thriving.
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/nav-logo.png" alt="MindThrive" height="70" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav me-3">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <!-- Services Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="servicesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li>
+                  <a class="dropdown-item" href="/benefits.html"
+                    >Benefits of Therapy</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/clients.html">Clients</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/clinicians.html"
+                    >Clinicians</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-download">Download</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- banner -->
+    <section class="benefits-hero">
+      <div class="container text-center">
+        <h1>Client Resource Library</h1>
+      </div>
+    </section>
+
+    <!-- benefits-section-1 -->
+    <section class="about-section-1">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2>Self-Help When You Need It Mosts</h2>
+            <p>
+              Sometimes you need support in the moment, not just during a
+              session. MindThrive’s resource library gives you instant access to
+              expert-created tools designed by licensed mental health
+              professionals.<br /><br />
+              Explore guided journaling prompts, mindfulness exercises, coping
+              strategies, and practical self-help resources you can use anytime,
+              anywhere. Whether you’re between sessions or just starting your
+              mental health journey, these tools are here to help you feel
+              calmer, more grounded, and supported- right when you need it most.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="./images/benefits-1.jpg"
+              alt="Therapy"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- benefits-section-2 -->
+    <section class="benefits-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>
+              20 Life-Changing Benefits of Therapy When Matched with the Right
+              Therapist
+            </h2>
+            <p>
+              Finding the right therapist—one who truly understands you and
+              aligns with your personality, values, and needs—can be a
+              life-changing experience. Here are 20 incredible benefits of
+              therapy when you’re matched with your ideal fit:
+            </p>
+
+            <div class="accordian">
+              <div class="accordion mt-5" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Reduces Anxiety & Stress
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Therapy helps you develop effective coping strategies and
+                      tools to manage anxiety and stress, promoting a calmer and
+                      more balanced life.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Helps Overcome Depression
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Through personalized support, therapy assists in
+                      understanding and addressing the root causes of
+                      depression, fostering hope and motivation.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Boosts Self-Confidence & Self-Worth
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Working with the right therapist encourages
+                      self-exploration, empowering you to build a stronger sense
+                      of confidence and value in yourself.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Improves Emotional Regulation
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Therapy teaches you how to better understand, express, and
+                      regulate your emotions, leading to healthier relationships
+                      and personal growth.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- benefits-3 -->
+    <section class="about-section-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-center">How it Works</h2>
+            <p class="text-center">
+              Getting started is easy. First, answer a short questionnaire
+              designed to understand your current emotions, struggles, or
+              circumstances. Based on your answers, MindThrive selects a guided
+              directive- created by licensed professionals- tailored to help you
+              process what you’re feeling and take meaningful steps toward
+              relief. Complete it on your own, at your own pace, and feel
+              supported every step of the way.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- benefits-4 -->
+    <section class="benefits-4">
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center">Non-Clinical Areas of Support</h2>
+          <div class="col-md-6 mt-5">
+            <strong>Self-esteem:</strong> Building self-confidence and
+            self-worth.<br />
+            <strong>Assertiveness:</strong> Learning to express needs and
+            boundaries effectively.<br /><strong> Communication skills:</strong>
+            Enhancing interpersonal communication.<br /><strong>
+              Stress management:</strong
+            >
+            Developing healthy coping strategies.<br /><strong>
+              Mindfulness:</strong
+            >
+            Practicing present-moment awareness.<br /><strong>
+              Work-life balance:</strong
+            >
+            Achieving harmony between professional and personal life.
+            <br /><strong>Time management:</strong> Improving organization and
+            productivity.<br /><strong> Gratitude practice:</strong> Cultivating
+            a positive outlook through gratitude.<br /><strong>
+              Goal setting:</strong
+            >
+            Setting and achieving personal or professional goals.<br /><strong>
+              Conflict resolution:</strong
+            >
+            Learning how to navigate and resolve disagreements.<br /><strong>
+              Anger management:</strong
+            >
+            Developing tools to manage and express anger constructively.<br /><strong>
+              Resilience building:</strong
+            >
+            Enhancing the ability to recover from setbacks.<br /><strong>
+              Creativity exploration:</strong
+            >
+            Using creative outlets for self-expression and stress relief.<br /><strong>
+              Body image:</strong
+            >
+            Improving the relationship with one’s body.
+          </div>
+          <div class="col-md-6 mt-5">
+            <p>
+              <strong>Decision-making:</strong> Enhancing problem-solving and
+              decision-making skills.
+
+              <br /><strong>Empathy development:</strong> Cultivating the
+              ability to understand and share the feelings of others.
+
+              <br /><strong>Personal values clarification:</strong> Identifying
+              and aligning life with core values.
+
+              <br /><strong>Procrastination:</strong> Overcoming avoidance and
+              taking action.
+
+              <br /><strong>Life transitions:</strong> Managing changes such as
+              career shifts, moving, or aging.
+
+              <br /><strong>Positive thinking:</strong> Developing a more
+              optimistic and resilient mindset.
+
+              <br /><strong>Boundaries:</strong> Learning to set and maintain
+              healthy boundaries in relationships.
+
+              <br /><strong>Self-care routines:</strong> Establishing and
+              maintaining effective self-care practices.
+
+              <br /><strong>Self-compassion:</strong> Cultivating kindness
+              toward oneself in times of struggle.
+
+              <br /><strong>Personal development:</strong> Focusing on
+              continuous growth and improvement.
+
+              <br /><strong>Purpose and meaning:</strong> Exploring one’s
+              purpose in life and creating a sense of meaning.
+
+              <br /><strong>Personal identity exploration:</strong> Exploring
+              and understanding aspects of identity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- benefits-5 -->
+    <section class="benefits-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              <strong>Disclosure Statement:</strong><br><br>
+
+              It’s important to note that these exercises and directives are
+              meant to support personal growth and well-being but are not a
+              substitute for professional help or therapy. If you experience
+              overwhelming emotions, frustration, or find yourself feeling stuck
+              while working through these activities, it’s important to seek
+              guidance from a qualified professional who can help you process
+              and navigate these feelings in a safe and supportive way. <br><br>Cost:
+              $19.99 per month
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="./images/nav-logo.png" alt="MindThrive" height="130" />
+            <p class="mt-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>
+
+            <!-- Social Icons -->
+            <div class="social-icons mt-3">
+              <a href="https://facebook.com" target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://instagram.com" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://linkedin.com" target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="https://twitter.com" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-md-3 mt-5">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/about.html">About</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="/benefits.html">Benefits of Therapy</a></li>
+              <li><a href="/clients.html">Clients</a></li>
+              <li><a href="#">Therapists</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mt-5">
+            <h5>Services</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Individual Therapy</a></li>
+              <li><a href="#">Group Therapy</a></li>
+              <li><a href="#">Family Counseling</a></li>
+              <li><a href="#">Couples Counseling</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mt-5">
+            <h5>Subscribe to Newsletter</h5>
+            <input
+              type="email"
+              class="form-control mb-2"
+              placeholder="Email Address"
+            />
+            <button class="btn btn-primary w-100">Send</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

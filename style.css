@@ -1,0 +1,413 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.top-bar {
+  background: #f58220;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.navbar {
+  background: #fff;
+}
+.navbar li a{
+  font-weight: 500;
+}
+
+.navbar .btn-download {
+  background: #f58220;
+  color: #fff;
+  border-radius: 20px;
+  padding: 6px 15px;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/hero-bg.jpeg") top/cover no-repeat;
+  color: #fff;
+  min-height: 100vh; /* full screen height */
+  display: flex;
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontal center */
+  text-align: center;
+  /* filter: brightness(80%); */
+}
+
+.hero h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.hero p {
+  font-size: larger;
+}
+
+.hero a {
+  padding: 10px 20px;
+}
+
+.section-orange {
+  background: #f58220;
+  color: #000;
+  padding: 100px 0;
+}
+
+.section-orange h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: #fff;
+}
+
+.section-orange p {
+  color: #fff;
+}
+
+.card-custom {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  height: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.card-custom p {
+  color: #000;
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.section-blue {
+  /* background:; */
+  color: #fff;
+  padding: 100px 0;
+}
+
+.section-blue h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: #000;
+}
+
+.card-custom-blue {
+  background: #2157e3;
+  padding: 20px;
+  border-radius: 8px;
+  height: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.card-custom-blue p {
+  color: #fff;
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* .card-custom {
+  background: #fff;
+  color: #000;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+} */
+
+.split-section {
+  padding: 100px 0;
+  background-color: #f58220;
+}
+
+.split-section h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+.split-section p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #fff;
+}
+
+.white .container {
+  padding: 50px 0px;
+}
+
+.white .container h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+.join-movement-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/hero-bg.jpeg") top/cover no-repeat;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.join-movement-box {
+  background: rgba(
+    255,
+    165,
+    0,
+    0.9
+  ); /* Orange overlay with little transparency */
+  border-radius: 15px;
+  padding: 50px 30px;
+  color: #fff;
+  max-width: 900px;
+  width: 90%;
+}
+
+.join-movement-box h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+.footer {
+  background: #04313d;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 8px;
+  background-color: #f58220;
+  padding: 8px 15px;
+  border-radius: 50%;
+  color: #e11515; /* default color */
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* hover effect (blue) */
+}
+
+.footer h5 {
+  color: #f58220;
+  font-weight: 600;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* -------------------------------------------About us-------------------------------------- */
+.about-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/about-hero.jpeg") top/cover no-repeat;
+  color: #fff;
+  min-height: 50vh; /* full screen height */
+  display: flex;
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontal center */
+  text-align: center;
+  /* filter: brightness(80%); */
+}
+
+.about-hero h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.founder {
+  padding: 100px 0px;
+}
+
+.founder h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.left-img img {
+  height: 30vh;
+  border-radius: 20px;
+}
+.right h3 {
+  background-color: #f58220;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  color: #fff;
+  padding: 5px 30px;
+  border-radius: 10px;
+}
+
+.about-section-1 {
+  padding: 50px 0px;
+  /* background-color: #f58220; */
+}
+
+.about-section-1 h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: #000;
+}
+
+.about-section-1 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #000;
+}
+
+.about-section-1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.about-section-2 h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+.card-custom h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: #f58220;
+  margin-top: 20px;
+}
+
+.about-section-3 {
+  padding: 100px 0px;
+}
+.about-section-3 h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  color: #1854e3;
+}
+.about-section-4 {
+  padding: 50px 0px;
+}
+.about-section-4 h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+.about-section-4 p {
+  color: #fff;
+}
+.about-section-4 .col-md-12 {
+  background-color: #f58220;
+  padding: 60px 30px;
+}
+
+/* ----------------------------------benefits------------------------------ */
+.benefits-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/benefits.jpg") top/cover no-repeat;
+  color: #fff;
+  min-height: 50vh; /* full screen height */
+  display: flex;
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontal center */
+  text-align: center;
+  /* filter: brightness(80%); */
+}
+.benefits-hero h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.benefits-2 {
+  padding: 100px 0px;
+}
+.benefits-2 h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+.accordian {
+  height: 20vh;
+}
+
+.benefits-4 {
+  padding: 100px 0px;
+}
+.benefits-4 h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+.benefits-5 {
+  padding: 50px 0px;
+}
+/* ---------------------------------------clinets------------------------------------- */
+.clients-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/clients-hero.png") top/cover no-repeat;
+  color: #fff;
+  min-height: 50vh; /* full screen height */
+  display: flex;
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontal center */
+  text-align: center;
+  /* filter: brightness(80%); */
+}
+.clients-hero h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.bullet {
+  padding: 50px 0px;
+}
+.bullet li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clinicians-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/clinicians.jpg") center/cover no-repeat;
+  color: #fff;
+  min-height: 50vh; /* full screen height */
+  display: flex;
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontal center */
+  text-align: center;
+  /* filter: brightness(80%); */
+}
+.clinicians-hero h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* -----------------------contact------------------- */
+body {
+  background: #f8f9fa;
+}
+.contact-card {
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(16, 24, 40, 0.08);
+}
+.map-wrapper {
+  height: 320px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+@media (min-width: 992px) {
+  .map-wrapper {
+    height: 100%;
+    min-height: 420px;
+  }
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.btn-primary.rounded-pill {
+  padding-left: 28px;
+  padding-right: 28px;
+}
