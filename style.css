@@ -43,6 +43,13 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
+/* Media Query for screens <= 500px */
+@media (max-width: 500px) {
+  .hero h1 {
+    font-size: 2.2rem; /* thoda chhota size */
+  }
+}
+
 .hero p {
   font-size: larger;
 }
