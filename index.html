@@ -12,6 +12,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       rel="stylesheet"
     />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -25,7 +27,7 @@
     <nav class="navbar navbar-expand-lg shadow-sm">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="./images/nav-logo.png" alt="MindThrive" height="70" />
+          <img src="./images/nav-logo.png" alt="MindThrive" height="70"" />
         </a>
         <button
           class="navbar-toggler"
@@ -73,8 +75,6 @@
                     >Client Resources Library</a
                   >
                 </li>
-                
-                
               </ul>
             </li>
 
@@ -105,14 +105,20 @@
     <!-- Orange Section -->
     <section class="section-orange text-center">
       <div class="container">
-        <h2>A Revolution in Mental Healthcare</h2>
-        <p>How MindThrive Works</p>
+        <h2 data-aos="fade-down"
+              data-aos-duration="1000">A Revolution in Mental Healthcare</h2>
+        <p data-aos="fade-down"
+              data-aos-duration="1000">How MindThrive Works</p>
         <div class="row mt-4">
           <div class="col-md-3 mb-3">
-            <div class="card-custom">
+            <div
+              class="card-custom"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div class="icon-circle">
                 <img class="rounded-pill" src="./images/card-logo.png"
-                height="70 alt="" />
+                height="70" alt="" />
               </div>
               <p>
                 1 in 5 adults in the U.S. experience mental health issues each
@@ -122,10 +128,11 @@
           </div>
 
           <div class="col-md-3 mb-3">
-            <div class="card-custom">
+            <div class="card-custom" data-aos="fade-up"
+              data-aos-duration="1000">
               <div class="icon-circle">
                 <img class="rounded-pill" src="./images/card-logo.png"
-                height="70 alt="" />
+                height="70" alt="" />
               </div>
               <p>
                 The demand for therapy has skyrocketed, but finding the right
@@ -136,10 +143,11 @@
           </div>
 
           <div class="col-md-3 mb-3">
-            <div class="card-custom">
+            <div class="card-custom" data-aos="fade-up"
+              data-aos-duration="1000">
               <div class="icon-circle">
                 <img class="rounded-pill" src="./images/card-logo.png"
-                height="70 alt="" />
+                height="70" alt="" />
               </div>
               <p>
                 Traditional therapy models often fail to consider personal
@@ -151,10 +159,11 @@
           </div>
 
           <div class="col-md-3">
-            <div class="card-custom">
+            <div class="card-custom" data-aos="fade-up"
+              data-aos-duration="1000">
               <div class="icon-circle">
                 <img class="rounded-pill" src="./images/card-logo.png"
-                height="70 alt="" />
+                height="70" alt="" />
               </div>
               <p>
                 Talk therapy isn’t the only type of therapy out there.
@@ -177,7 +186,7 @@
             <div class="card-custom-blue">
               <div class="icon-circle">
                 <img class="rounded-pill" src="./images/card-logo.png"
-                height="70 alt="" />
+                height="70" alt="" />
               </div>
               <p>
                 It’s evident that clinician burnout is at an all-time high,
@@ -192,7 +201,7 @@
             <div class="card-custom-blue">
               <div class="icon-circle">
                 <img class="rounded-pill" src="./images/card-logo.png"
-                height="70 alt="" />
+                height="70" alt="" />
               </div>
               <p>
                 Many professionals feel the pressure to take on every client
@@ -206,7 +215,7 @@
             <div class="card-custom-blue">
               <div class="icon-circle">
                 <img class="rounded-pill" src="./images/card-logo.png"
-                height="70 alt="" />
+                height="70" alt="" />
               </div>
               <p>
                 Marketing their services or paying a huge cut to their overhead
@@ -380,6 +389,15 @@
         <p>Copyright @Binary Design Hub</p>
       </div>
     </footer>
+
+    
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
