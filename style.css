@@ -104,7 +104,7 @@ body {
 .section-blue {
   /* background:; */
   color: #fff;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .section-blue h2 {
@@ -438,3 +438,51 @@ body {
   font-size: 17px;
   color: #898989; /* ya jo color chahiye */
 }
+
+
+/* -------------------------------------------video css------------------------------ */
+.video-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.thumbnail {
+  width: 100%;
+  display: block;
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #fff;
+  background: rgba(0,0,0,0.6);
+  padding: 20px 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.play-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.video-player {
+  width: 100%;
+  display: none; /* hidden by default */
+  border-radius: 15px;
+}
+

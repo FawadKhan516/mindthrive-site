@@ -204,6 +204,30 @@
       </div>
     </section>
 
+    <!-- Video Section -->
+    <section class="video-section">
+      <div class="video-wrapper">
+        <!-- Thumbnail / Background Image -->
+        <img
+          src="./images/video-thumbnail.png"
+          alt="Video Thumbnail"
+          class="thumbnail"
+        />
+
+        <!-- Play Button -->
+        <div class="play-btn" id="playBtn">▶</div>
+
+        <!-- Hidden Video -->
+        <video id="myVideo" class="video-player" controls>
+          <source
+            src="./images/MindThrive Final Animation (1).mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
     <!-- Blue Section -->
     <section class="section-blue text-center">
       <div class="container">
@@ -434,6 +458,19 @@
 
     <script>
       AOS.init();
+    </script>
+
+    <script>
+      const video = document.getElementById("myVideo");
+      const playBtn = document.getElementById("playBtn");
+      const thumbnail = document.querySelector(".thumbnail");
+
+      playBtn.addEventListener("click", () => {
+        thumbnail.style.display = "none"; // hide image
+        playBtn.style.display = "none"; // hide play btn
+        video.style.display = "block"; // show video
+        video.play(); // auto play video
+      });
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
