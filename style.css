@@ -443,9 +443,18 @@ body {
 /* -------------------------------------------video css------------------------------ */
 .video-section {
   display: flex;
+  flex-direction: column; /* heading upar, video neeche */
   justify-content: center;
   align-items: center;
-  padding: 50px 0;
+  padding: 50px 20px;
+}
+
+.video-heading {
+  text-align: center;
+  /* font-size: 28px; */
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  color: #222; /* apne theme ke hisaab se change kar lena */
 }
 
 .video-wrapper {
@@ -460,11 +469,12 @@ body {
 .thumbnail {
   width: 100%;
   display: block;
+  border-radius: 15px;
   position: relative;
   z-index: 1;
 }
 
-/* Overlay - ye rahega video ke upar */
+/* Overlay - video ke upar */
 .overlay {
   position: absolute;
   top: 0;
@@ -481,7 +491,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 24px;
+  font-size: 28px;
   color: #fff;
   background: rgba(0,0,0,0.6);
   padding: 20px 28px;
