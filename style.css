@@ -474,6 +474,7 @@ body {
   border-radius: 50%;
   cursor: pointer;
   transition: 0.3s ease;
+  z-index: 2;
 }
 
 .play-btn:hover {
@@ -482,7 +483,7 @@ body {
 
 .video-player {
   width: 100%;
+  height: auto;
   display: none; /* hidden by default */
   border-radius: 15px;
 }
-
