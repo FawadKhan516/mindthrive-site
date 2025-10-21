@@ -83,6 +83,12 @@ body {
   text-align: center;
   color: #000;
 }
+@media (max-width: 768px) {
+  .card-custom {
+    height: 100%;
+  }
+}
+
 .card-custom h5{
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.5rem;
@@ -125,6 +131,12 @@ body {
   height: 35vh;
   text-align: center;
   color: #000;
+}
+
+@media (max-width: 768px) {
+  .card-custom-blue {
+    height: 100%;
+  }
 }
 
 .card-custom-blue p {
