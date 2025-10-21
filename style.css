@@ -79,15 +79,15 @@ body {
   background: #fff;
   padding: 20px;
   border-radius: 8px;
-  height: 35vh;
+  height: 100%;
   text-align: center;
   color: #000;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .card-custom {
     height: 100%;
   }
-}
+} */
 
 .card-custom h5{
   font-family: 'Times New Roman', Times, serif;
@@ -128,16 +128,16 @@ body {
   background: #2157e3;
   padding: 20px;
   border-radius: 8px;
-  height: 35vh;
+  height: 100%;
   text-align: center;
   color: #000;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .card-custom-blue {
     height: 100%;
   }
-}
+} */
 
 .card-custom-blue p {
   color: #fff;
